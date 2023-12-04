@@ -18,27 +18,35 @@ export default function Home() {
         <form action=" https://statistiques-foot.vercel.app/api/v1/joueurs" method="get">
           <button type="submit">Acceder aux données des joueurs</button>
         </form>
+        <br></br> <br></br>
         <form action=" https://statistiques-foot.vercel.app/api/v1/equipes" method="get">
           <button type="submit">Acceder aux données des équipes</button>
         </form>
+        <br></br> <br></br>
         <form action=" https://statistiques-foot.vercel.app/api/v1/competitions" method="get">
           <button type="submit">Acceder aux données des compétitioins</button>
         </form>
+        <br></br> <br></br>
         <form action=" https://statistiques-foot.vercel.app/api/v1/matches" method="get">
           <button type="submit">Acceder aux données des matchs</button>
         </form>
+        <br></br> <br></br>
         <form action=" https://statistiques-foot.vercel.app/api/v1/passes" method="get">
-          <button type="submit">Acceder aux données des actions des passes</button>
+          <button type="submit">Acceder aux données des passes</button>
         </form>
+        <br></br> <br></br>
         <form action=" https://statistiques-foot.vercel.app/api/v1/possessions" method="get">
-          <button type="submit">Acceder aux données des actions des possessions</button>
+          <button type="submit">Acceder aux données des possessions</button>
         </form>
+        <br></br> <br></br>
         <form action=" https://statistiques-foot.vercel.app/api/v1/actions" method="get">
-          <button type="submit">Acceder aux données des actions des actions</button>
+          <button type="submit">Acceder aux données des actions </button>
         </form>
+        <br></br> <br></br>
         <form action=" https://statistiques-foot.vercel.app/api/v1/cartons" method="get">
-          <button type="submit">Acceder aux données des actions des cartons</button>
+          <button type="submit">Acceder aux données  des cartons</button>
         </form>
+        <br></br> <br></br>
       </main>
 
       <Footer />
