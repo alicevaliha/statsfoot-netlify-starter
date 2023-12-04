@@ -13,8 +13,11 @@ export default function Home() {
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Press buttons to access data retrievement ! <code>pages/index.js</code>
         </p>
+        <form action=" https://statistiques-foot.vercel.app/api/v1/joueurs" method="get">
+          <button type="submit">Acceder aux données des joueurs</button>
+        </form>
       </main>
 
       <Footer />
