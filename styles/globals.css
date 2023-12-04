@@ -33,3 +33,24 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+/* Style de base du bouton */
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #3498db; /* Couleur de fond de base */
+  color: #ffffff; /* Couleur du texte */
+  transition: background-color 0.3s ease; /* Transition de couleur de fond avec une durée de 0.3 seconde */
+}
+
+/* Effet de survol */
+button:hover {
+  background-color: #8e44ad; /* Couleur de fond au survol */
+  transition: background-color 0.8s ease; /* Transition de couleur de fond avec une durée de 0.8 seconde au survol */
+}
+
