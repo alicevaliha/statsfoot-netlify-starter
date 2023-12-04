@@ -1,5 +1,5 @@
 /* Style de base du bouton */
-.button {
+button {
   display: inline-block;
   padding: 10px 20px;
   margin-right: 10px; /* Espacement entre les boutons */
@@ -16,13 +16,13 @@
 }
 
 /* Effet de survol */
-.button:hover {
+button:hover {
   background: linear-gradient(to right, #8e44ad, #3498db); /* Dégradé violet au survol */
   color: #ffffff; /* Changement de couleur du texte au survol */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légèrement plus prononcée au survol */
 }
 /* Style de base du bouton */
-.button {
+button {
   display: inline-block;
   padding: 10px 20px;
   margin-right: 10px; /* Espacement entre les boutons */
