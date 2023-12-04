@@ -1,56 +1,46 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
-}
-
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 /* Style de base du bouton */
-button {
+.button {
   display: inline-block;
   padding: 10px 20px;
+  margin-right: 10px; /* Espacement entre les boutons */
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   text-decoration: none;
+  border: none;
   border-radius: 5px;
-  background-color: #3498db; /* Couleur de fond de base */
-  color: #ffffff; /* Couleur du texte */
-  transition: background-color 0.3s ease; /* Transition de couleur de fond avec une durée de 0.3 seconde */
+  background-color: #ffffff; /* Fond blanc de base */
+  color: #3498db; /* Couleur du texte de base */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Transitions pour plusieurs propriétés */
 }
 
 /* Effet de survol */
-button:hover {
-  background-color: #8e44ad; /* Couleur de fond au survol */
-  transition: background-color 0.8s ease; /* Transition de couleur de fond avec une durée de 0.8 seconde au survol */
+.button:hover {
+  background: linear-gradient(to right, #8e44ad, #3498db); /* Dégradé violet au survol */
+  color: #ffffff; /* Changement de couleur du texte au survol */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légèrement plus prononcée au survol */
+}
+/* Style de base du bouton */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px; /* Espacement entre les boutons */
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff; /* Fond blanc de base */
+  color: #3498db; /* Couleur du texte de base */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Transitions pour plusieurs propriétés */
 }
 
+/* Effet de survol */
+.button:hover {
+  background: linear-gradient(to right, #8e44ad, #3498db); /* Dégradé violet au survol */
+  color: #ffffff; /* Changement de couleur du texte au survol */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légèrement plus prononcée au survol */
+}
