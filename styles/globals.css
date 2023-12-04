@@ -1,46 +1,35 @@
-/* Style de base du bouton */
-button {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-right: 10px; /* Espacement entre les boutons */
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  border-radius: 5px;
-  background-color: #ffffff; /* Fond blanc de base */
-  color: #3498db; /* Couleur du texte de base */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
-  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Transitions pour plusieurs propriétés */
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Effet de survol */
+
 button:hover {
-  background: linear-gradient(to right, #8e44ad, #3498db); /* Dégradé violet au survol */
-  color: #ffffff; /* Changement de couleur du texte au survol */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légèrement plus prononcée au survol */
+  background: linear-gradient(to right, #8e44ad, #3498db); 
+  color: #ffffff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-/* Style de base du bouton */
+
+
 button {
   display: inline-block;
   padding: 10px 20px;
-  margin-right: 10px; /* Espacement entre les boutons */
+  margin-right: 10px;
   font-size: 16px;
   font-weight: normal;
   text-align: center;
   text-decoration: none;
   border: none;
   border-radius: 5px;
-  background-color: #ffffff; /* Fond blanc de base */
-  color: #3498db; /* Couleur du texte de base */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
-  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Transitions pour plusieurs propriétés */
+  background-color: #ffffff; 
+  color: #3498db; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; 
 }
 
 /* Effet de survol */
 .button:hover {
-  background: linear-gradient(to right, #8e44ad, #3498db); /* Dégradé violet au survol */
-  color: #ffffff; /* Changement de couleur du texte au survol */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légèrement plus prononcée au survol */
+  background: linear-gradient(to right, #8e44ad, #3498db);
+  color: #ffffff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
